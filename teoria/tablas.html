@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABLAS</title>
+    <style>
+        table, td{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    
+    <!--Inicio de la tabla-->
+    <table>
+        <caption>Calificaciones</caption>
+        <!--Cabecera de la tabla-->
+        <thead>
+            <tr>
+                <td>Alumno</td>
+                <td>Calificación</td>
+            </tr>
+        </thead>
+        <!--Cuerpo de la tabla-->
+        <tbody>
+            <tr>
+                <td>Zenely</td>
+                <td>9.0</td>
+            </tr>
+            <tr>
+                <td>Aldair</td>
+                <td>10.0</td>
+            </tr>
+            <tr>
+                <td>Diego</td>
+                <td>7.0</td>
+            </tr>
+        </tbody>
+        <!--Pie de la tabla-->
+        <tfoot>
+            <tr>
+                <td>Promedio</td>
+                <td>8.7</td>
+            </tr>
+            <tr>
+                <!--Con coolspan hacemos que una celda abarque varias columnas-->
+                <td colspan="2">Más alto</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
